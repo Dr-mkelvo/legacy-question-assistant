@@ -55,3 +55,4 @@ The first version should do one job well:
 - [Data Model](./docs/DATA_MODEL.md): Convex tables and records.
 - [AI Question Engine](./docs/AI_QUESTION_ENGINE.md): how the next-question logic works.
 - [Storage Strategy](./docs/STORAGE_STRATEGY.md): Convex storage first, Google Cloud Storage later if needed.
+- [IT Infrastructure Approach](./docs/IT_INFRASTRUCTURE_APPROACH.md): how to run the project from an engineering, deployment, security, and operations point of view.
