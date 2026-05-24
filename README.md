@@ -48,11 +48,16 @@ The first version should do one job well:
 
 ## Documentation
 
+- [Executive Summary](./docs/EXECUTIVE_SUMMARY.md): short overview of the full idea and MVP.
 - [Project Goal](./docs/PROJECT_GOAL.md): what we are building and why.
 - [Live Transcription Guide](./LIVE_TRANSCRIPTION_GUIDE.md): the main shareable guide for building live transcription and next-question assistance.
+- [Live Transcription Summary](./docs/LIVE_TRANSCRIPTION_SUMMARY.md): short version of the live transcription approach.
+- [Live Transcription Detail](./docs/LIVE_TRANSCRIPTION_DETAIL.md): detailed implementation plan for the live transcription workflow.
+- [Transcription Alternatives](./docs/TRANSCRIPTION_ALTERNATIVES.md): provider options, tradeoffs, and recommendation.
 - [Architecture](./docs/ARCHITECTURE.md): system components and data flow.
 - [Build Phases](./docs/BUILD_PHASES.md): the order of work.
 - [Data Model](./docs/DATA_MODEL.md): Convex tables and records.
-- [AI Question Engine](./docs/AI_QUESTION_ENGINE.md): how the next-question logic works.
+- [AI Question Engine Summary](./docs/AI_QUESTION_ENGINE_SUMMARY.md): short version of how question generation works.
+- [AI Question Engine Detail](./docs/AI_QUESTION_ENGINE.md): detailed next-question logic and prompt.
 - [Storage Strategy](./docs/STORAGE_STRATEGY.md): Convex storage first, Google Cloud Storage later if needed.
 - [IT Infrastructure Approach](./docs/IT_INFRASTRUCTURE_APPROACH.md): how to run the project from an engineering, deployment, security, and operations point of view.

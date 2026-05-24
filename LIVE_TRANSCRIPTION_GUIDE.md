@@ -2,6 +2,15 @@
 
 This guide describes how to build the first product from scratch: a live interview screen that transcribes speech and suggests the next best questions for the interviewer.
 
+For sharing, use these two focused files:
+
+- [Live Transcription Summary](./docs/LIVE_TRANSCRIPTION_SUMMARY.md)
+- [Live Transcription Detail](./docs/LIVE_TRANSCRIPTION_DETAIL.md)
+
+For provider choices, use:
+
+- [Transcription Alternatives](./docs/TRANSCRIPTION_ALTERNATIVES.md)
+
 ## Goal
 
 Build a real-time assistant for legacy interviews.
@@ -286,4 +295,3 @@ The MVP is working when:
 - Post-interview report generation.
 - Family archive portal.
 - Long-term preservation exports.
-
