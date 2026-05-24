@@ -15,6 +15,41 @@ The setup has two jobs:
 
 Do not treat the live transcript as the original record. The original record is the clean audio or video recording.
 
+This document focuses on the physical setup. The tablet/interviewer console and 3-5 AI follow-up question workflow are covered in:
+
+- [Live Transcription Summary](./LIVE_TRANSCRIPTION_SUMMARY.md)
+- [Live Transcription Detail](./LIVE_TRANSCRIPTION_DETAIL.md)
+- [AI Question Engine Summary](./AI_QUESTION_ENGINE_SUMMARY.md)
+- [AI Question Engine Detail](./AI_QUESTION_ENGINE.md)
+
+## Whole Setup In One Flow
+
+```text
+Guest + interviewer speak
+  -> lav mics capture clean audio
+  -> recorder saves original source recording
+  -> recorder/interface sends clean live feed to laptop/tablet
+  -> Next.js interviewer console streams audio to transcription provider
+  -> transcription provider returns live transcript
+  -> Convex saves final transcript segments
+  -> OpenAI receives recent transcript context
+  -> OpenAI returns 3-5 follow-up questions
+  -> tablet/interviewer console displays the suggested questions
+  -> interviewer chooses what to ask next
+```
+
+The tablet or laptop is the live control surface. It shows the interviewer:
+
+- live transcript,
+- current topic,
+- 3-5 suggested follow-up questions,
+- Mark as Asked,
+- Regenerate,
+- Save Important Moment,
+- interview mode selector.
+
+The recorder is the preservation device. It saves the original audio even if the internet, transcription provider, or AI question engine fails.
+
 ## Minimum Setup
 
 Use this for early testing:
@@ -265,7 +300,9 @@ Wireless lav internal recording or Zoom recorder
   -> saves clean backup audio
 
 Next.js app
-  -> displays transcript and questions
+  -> runs on laptop/tablet
+  -> displays live transcript
+  -> displays 3-5 follow-up questions
 
 Convex
   -> saves final transcript segments and AI questions
@@ -284,6 +321,8 @@ Recorder mix output
 
 Next.js app
   -> interviewer console
+  -> live transcript
+  -> 3-5 suggested follow-up questions
 
 Convex
   -> transcripts, questions, bookmarks, session state
