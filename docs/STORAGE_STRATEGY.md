@@ -13,6 +13,8 @@ Convex should store:
 - bookmarks,
 - small generated files or exports when needed.
 
+The original interview recording is separate from the live transcript. During the MVP, record the original audio locally on the recorder or lav transmitters first. Uploading large original audio/video files can come later.
+
 ## Why Convex First
 
 Convex keeps the MVP simple because it can handle:
@@ -48,4 +50,3 @@ Example:
   createdAt: number;
 }
 ```
-
