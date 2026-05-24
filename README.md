@@ -53,6 +53,7 @@ The first version should do one job well:
 - [Live Transcription Guide](./LIVE_TRANSCRIPTION_GUIDE.md): the main shareable guide for building live transcription and next-question assistance.
 - [Live Transcription Summary](./docs/LIVE_TRANSCRIPTION_SUMMARY.md): short version of the live transcription approach.
 - [Live Transcription Detail](./docs/LIVE_TRANSCRIPTION_DETAIL.md): detailed implementation plan for the live transcription workflow.
+- [Recording Setup](./docs/RECORDING_SETUP.md): microphones, lav setup, backup recorder, room setup, and field workflow.
 - [Transcription Alternatives](./docs/TRANSCRIPTION_ALTERNATIVES.md): provider options, tradeoffs, and recommendation.
 - [Architecture](./docs/ARCHITECTURE.md): system components and data flow.
 - [Build Phases](./docs/BUILD_PHASES.md): the order of work.

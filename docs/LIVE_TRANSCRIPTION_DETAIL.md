@@ -9,7 +9,7 @@ The live system must help the interviewer capture deeper knowledge in the moment
 ## Selected MVP Architecture
 
 ```text
-Microphone
+Lav microphones / room microphone
   -> browser MediaRecorder / Web Audio API
   -> transcription provider WebSocket
   -> transcript events
@@ -19,6 +19,8 @@ Microphone
   -> Convex suggestedQuestions table
   -> realtime subscription back to UI
 ```
+
+For the physical recording setup, see [Recording Setup](./RECORDING_SETUP.md).
 
 ## Recommended Provider
 
@@ -197,4 +199,3 @@ The live transcription feature is ready for internal testing when:
 - question status updates save,
 - stopping the interview closes streams cleanly,
 - no API keys are exposed in browser code.
-

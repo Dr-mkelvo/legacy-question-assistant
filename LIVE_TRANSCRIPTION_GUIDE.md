@@ -11,6 +11,10 @@ For provider choices, use:
 
 - [Transcription Alternatives](./docs/TRANSCRIPTION_ALTERNATIVES.md)
 
+For microphones and field setup, use:
+
+- [Recording Setup](./docs/RECORDING_SETUP.md)
+
 ## Goal
 
 Build a real-time assistant for legacy interviews.

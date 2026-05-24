@@ -13,6 +13,13 @@ Use:
 - Deepgram for live speech-to-text,
 - OpenAI for next-question generation.
 
+Use a proper recording setup:
+
+- 2 lav mics for a standard interviewer + guest session,
+- up to 4 lav mics when family members, assistants, or multiple guests may speak,
+- headphones for monitoring,
+- local backup recorder running throughout the session.
+
 ## Why Deepgram First
 
 Deepgram is the recommended first transcription provider because it is strong for:
@@ -79,4 +86,3 @@ The MVP works when:
 - AI questions appear within 30 seconds,
 - the interviewer can mark a question as asked,
 - the session can stop without losing saved transcript data.
-
